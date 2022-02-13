@@ -1,5 +1,5 @@
-<p float="left" align="center">
-  <img src="https://www.fs.cvut.cz/content/.thumbs/420x262/images/album/News_Model_News/1402/imgonline-com-ua-twotoone-BudDN3WeUgxAI-scaled.jpg" alt="Rocket" />
-</p>
+Its Good But Still V2 (2022)
 
-# Czech Rocket Challenge - Its Good But Still
+<p float="left" align="center">
+  <img src="https://www.jakubparez.com/dl/IGBS-2021.jpg" alt="IGBS 2021" />
+</p>
