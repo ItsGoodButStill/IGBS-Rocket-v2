@@ -25519,10 +25519,10 @@ GPS</text>
 <text x="44.45" y="54.61" size="2.286" layer="104" ratio="10">SWD</text>
 <text x="44.45" y="156.21" size="2.286" layer="104" ratio="10">USB</text>
 <text x="44.45" y="100.33" size="2.286" layer="104" ratio="10">HOLES</text>
-<wire x1="213.36" y1="160.02" x2="154.94" y2="160.02" width="0.254" layer="104" style="shortdash"/>
-<wire x1="213.36" y1="58.42" x2="154.94" y2="58.42" width="0.254" layer="104" style="shortdash"/>
+<wire x1="213.36" y1="160.02" x2="152.4" y2="160.02" width="0.254" layer="104" style="shortdash"/>
+<wire x1="213.36" y1="58.42" x2="152.4" y2="58.42" width="0.254" layer="104" style="shortdash"/>
 <wire x1="213.36" y1="160.02" x2="213.36" y2="58.42" width="0.254" layer="104" style="shortdash"/>
-<wire x1="154.94" y1="160.02" x2="154.94" y2="58.42" width="0.254" layer="104" style="shortdash"/>
+<wire x1="152.4" y1="160.02" x2="152.4" y2="58.42" width="0.254" layer="104" style="shortdash"/>
 <text x="156.21" y="156.21" size="2.286" layer="104" ratio="10">AUX CONNS</text>
 </plain>
 <instances>
@@ -25641,6 +25641,13 @@ GPS</text>
 <wire x1="53.34" y1="142.24" x2="53.34" y2="134.62" width="0.762" layer="92"/>
 <wire x1="53.34" y1="134.62" x2="45.72" y2="134.62" width="0.762" layer="92"/>
 <label x="47.244" y="135.89" size="1.778" layer="95"/>
+</segment>
+</bus>
+<bus name="ADC-AUX:ADC-AUX-1,ADC-AUX-2,ADC-AUX-3">
+<segment>
+<wire x1="167.64" y1="152.4" x2="167.64" y2="144.78" width="0.762" layer="92"/>
+<wire x1="167.64" y1="144.78" x2="154.94" y2="144.78" width="0.762" layer="92"/>
+<label x="155.448" y="145.542" size="1.778" layer="95"/>
 </segment>
 </bus>
 </busses>
@@ -25827,21 +25834,21 @@ GPS</text>
 <net name="ADC-AUX-1" class="0">
 <segment>
 <pinref part="ADC-AUX" gate="A" pin="1"/>
-<wire x1="198.12" y1="152.4" x2="170.18" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="152.4" x2="167.64" y2="152.4" width="0.1524" layer="91"/>
 <label x="171.958" y="152.908" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADC-AUX-2" class="0">
 <segment>
 <pinref part="ADC-AUX" gate="A" pin="2"/>
-<wire x1="198.12" y1="149.86" x2="170.18" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="149.86" x2="167.64" y2="149.86" width="0.1524" layer="91"/>
 <label x="171.958" y="150.114" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADC-AUX-3" class="0">
 <segment>
 <pinref part="ADC-AUX" gate="A" pin="3"/>
-<wire x1="198.12" y1="147.32" x2="170.18" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="147.32" x2="167.64" y2="147.32" width="0.1524" layer="91"/>
 <label x="171.958" y="147.574" size="1.778" layer="95"/>
 </segment>
 </net>

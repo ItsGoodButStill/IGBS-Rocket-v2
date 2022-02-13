@@ -25519,11 +25519,11 @@ GPS</text>
 <text x="44.45" y="54.61" size="2.286" layer="104" ratio="10">SWD</text>
 <text x="44.45" y="156.21" size="2.286" layer="104" ratio="10">USB</text>
 <text x="44.45" y="100.33" size="2.286" layer="104" ratio="10">HOLES</text>
-<wire x1="213.36" y1="160.02" x2="152.4" y2="160.02" width="0.254" layer="104" style="shortdash"/>
-<wire x1="213.36" y1="58.42" x2="152.4" y2="58.42" width="0.254" layer="104" style="shortdash"/>
+<wire x1="213.36" y1="160.02" x2="149.86" y2="160.02" width="0.254" layer="104" style="shortdash"/>
+<wire x1="213.36" y1="58.42" x2="149.86" y2="58.42" width="0.254" layer="104" style="shortdash"/>
 <wire x1="213.36" y1="160.02" x2="213.36" y2="58.42" width="0.254" layer="104" style="shortdash"/>
-<wire x1="152.4" y1="160.02" x2="152.4" y2="58.42" width="0.254" layer="104" style="shortdash"/>
-<text x="156.21" y="156.21" size="2.286" layer="104" ratio="10">AUX CONNS</text>
+<wire x1="149.86" y1="160.02" x2="149.86" y2="58.42" width="0.254" layer="104" style="shortdash"/>
+<text x="151.13" y="156.21" size="2.286" layer="104" ratio="10">AUX CONNS</text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="0" y="0" smashed="yes">
@@ -25646,8 +25646,36 @@ GPS</text>
 <bus name="ADC-AUX:ADC-AUX-1,ADC-AUX-2,ADC-AUX-3">
 <segment>
 <wire x1="167.64" y1="152.4" x2="167.64" y2="144.78" width="0.762" layer="92"/>
-<wire x1="167.64" y1="144.78" x2="154.94" y2="144.78" width="0.762" layer="92"/>
-<label x="155.448" y="145.542" size="1.778" layer="95"/>
+<wire x1="167.64" y1="144.78" x2="152.4" y2="144.78" width="0.762" layer="92"/>
+<label x="152.4" y="146.05" size="1.778" layer="95"/>
+</segment>
+</bus>
+<bus name="UART-AUX:UART-AUX-RX,UART-AUX-TX">
+<segment>
+<wire x1="167.64" y1="137.16" x2="167.64" y2="132.08" width="0.762" layer="92"/>
+<wire x1="167.64" y1="132.08" x2="152.4" y2="132.08" width="0.762" layer="92"/>
+<label x="152.4" y="133.096" size="1.778" layer="95"/>
+</segment>
+</bus>
+<bus name="I2C-AUX:I2C-AUX-SCL,I2C-AUX-SDA">
+<segment>
+<wire x1="167.64" y1="124.46" x2="167.64" y2="119.38" width="0.762" layer="92"/>
+<wire x1="167.64" y1="119.38" x2="152.4" y2="119.38" width="0.762" layer="92"/>
+<label x="152.654" y="120.65" size="1.778" layer="95"/>
+</segment>
+</bus>
+<bus name="SPI-AUX:SPI-AUX-MISO,SPI-AUX-MOSI,SPI-AUX-SCK">
+<segment>
+<wire x1="167.64" y1="111.76" x2="167.64" y2="104.14" width="0.762" layer="92"/>
+<wire x1="167.64" y1="104.14" x2="152.4" y2="104.14" width="0.762" layer="92"/>
+<label x="152.654" y="105.156" size="1.778" layer="95"/>
+</segment>
+</bus>
+<bus name="GPIO-AUX:GPIO-AUX-1,GPIO-AUX-2,GPIO-AUX-3,GPIO-AUX-4">
+<segment>
+<wire x1="167.64" y1="96.52" x2="167.64" y2="86.36" width="0.762" layer="92"/>
+<wire x1="167.64" y1="86.36" x2="152.4" y2="86.36" width="0.762" layer="92"/>
+<label x="152.908" y="87.376" size="1.778" layer="95"/>
 </segment>
 </bus>
 </busses>

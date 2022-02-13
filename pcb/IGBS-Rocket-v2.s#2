@@ -25671,7 +25671,7 @@ GPS</text>
 <label x="152.654" y="105.156" size="1.778" layer="95"/>
 </segment>
 </bus>
-<bus name="GPIO-AUX:GPIO-AUX-1,GPIO-AUX-2,GPIO-AUX-3,GPIO-AUX-4">
+<bus name="GPIO-AUX:GPIO-AUX-IN1,GPIO-AUX-IN2,GPIO-AUX-OUT1,GPIO-AUX-OUT2">
 <segment>
 <wire x1="167.64" y1="96.52" x2="167.64" y2="86.36" width="0.762" layer="92"/>
 <wire x1="167.64" y1="86.36" x2="152.4" y2="86.36" width="0.762" layer="92"/>
@@ -25883,77 +25883,77 @@ GPS</text>
 <net name="UART-AUX-RX" class="0">
 <segment>
 <pinref part="UART-AUX" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="137.16" x2="170.18" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="137.16" x2="167.64" y2="137.16" width="0.1524" layer="91"/>
 <label x="170.942" y="137.414" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UART-AUX-TX" class="0">
 <segment>
 <pinref part="UART-AUX" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="134.62" x2="170.18" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="134.62" x2="167.64" y2="134.62" width="0.1524" layer="91"/>
 <label x="170.942" y="134.874" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2C-AUX-SDA" class="0">
 <segment>
 <pinref part="I2C-AUX" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="124.46" x2="170.18" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="124.46" x2="167.64" y2="124.46" width="0.1524" layer="91"/>
 <label x="170.942" y="124.968" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2C-AUX-SCL" class="0">
 <segment>
 <pinref part="I2C-AUX" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="121.92" x2="170.18" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="121.92" x2="167.64" y2="121.92" width="0.1524" layer="91"/>
 <label x="170.942" y="122.174" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI-AUX-MOSI" class="0">
 <segment>
 <pinref part="SPI-AUX" gate="A" pin="1"/>
-<wire x1="198.12" y1="111.76" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="111.76" x2="167.64" y2="111.76" width="0.1524" layer="91"/>
 <label x="171.196" y="112.014" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI-AUX-MISO" class="0">
 <segment>
 <pinref part="SPI-AUX" gate="A" pin="2"/>
-<wire x1="198.12" y1="109.22" x2="170.18" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="109.22" x2="167.64" y2="109.22" width="0.1524" layer="91"/>
 <label x="171.196" y="109.474" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI-AUX-SCK" class="0">
 <segment>
 <pinref part="SPI-AUX" gate="A" pin="3"/>
-<wire x1="198.12" y1="106.68" x2="170.18" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="106.68" x2="167.64" y2="106.68" width="0.1524" layer="91"/>
 <label x="171.196" y="106.934" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO-AUX-IN1" class="0">
 <segment>
 <pinref part="GPIO-AUX" gate="A" pin="1"/>
-<wire x1="198.12" y1="96.52" x2="170.18" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="96.52" x2="167.64" y2="96.52" width="0.1524" layer="91"/>
 <label x="171.196" y="97.282" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO-AUX-IN2" class="0">
 <segment>
 <pinref part="GPIO-AUX" gate="A" pin="2"/>
-<wire x1="198.12" y1="93.98" x2="170.18" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="93.98" x2="167.64" y2="93.98" width="0.1524" layer="91"/>
 <label x="171.196" y="94.234" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO-AUX-OUT1" class="0">
 <segment>
 <pinref part="GPIO-AUX" gate="A" pin="3"/>
-<wire x1="198.12" y1="91.44" x2="170.18" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="91.44" x2="167.64" y2="91.44" width="0.1524" layer="91"/>
 <label x="171.196" y="91.694" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO-AUX-OUT2" class="0">
 <segment>
 <pinref part="GPIO-AUX" gate="A" pin="4"/>
-<wire x1="198.12" y1="88.9" x2="170.18" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="88.9" x2="167.64" y2="88.9" width="0.1524" layer="91"/>
 <label x="171.196" y="89.154" size="1.778" layer="95"/>
 </segment>
 </net>

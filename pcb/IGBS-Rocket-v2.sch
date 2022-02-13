@@ -25154,6 +25154,18 @@ GPS</text>
 <label x="7.62" y="104.902" size="1.778" layer="95"/>
 </segment>
 </bus>
+<bus name="STR-GAUG:GAUG1,GAUG2,GAUG3">
+<segment>
+<wire x1="22.86" y1="83.82" x2="22.86" y2="81.28" width="0.762" layer="92"/>
+<wire x1="22.86" y1="81.28" x2="7.62" y2="81.28" width="0.762" layer="92"/>
+<label x="7.874" y="82.042" size="1.778" layer="95"/>
+</segment>
+</bus>
+<bus name="GAUG3">
+<segment>
+<wire x1="7.62" y1="78.74" x2="22.86" y2="78.74" width="0.762" layer="92"/>
+</segment>
+</bus>
 </busses>
 <nets>
 <net name="BOOT0" class="0">
@@ -25305,6 +25317,22 @@ GPS</text>
 <wire x1="22.86" y1="104.14" x2="45.72" y2="104.14" width="0.1524" layer="91"/>
 <label x="30.734" y="104.648" size="1.778" layer="95"/>
 <pinref part="U1" gate="A" pin="PA9"/>
+</segment>
+</net>
+<net name="GAUG2" class="0">
+<segment>
+<wire x1="22.86" y1="83.82" x2="33.02" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="83.82" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
+<label x="30.988" y="84.328" size="1.778" layer="95"/>
+<pinref part="U1" gate="A" pin="PB0"/>
+</segment>
+</net>
+<net name="GAUG3" class="0">
+<segment>
+<wire x1="22.86" y1="81.28" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="81.28" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
+<label x="30.988" y="81.534" size="1.778" layer="95"/>
+<pinref part="U1" gate="A" pin="PB1"/>
 </segment>
 </net>
 </nets>

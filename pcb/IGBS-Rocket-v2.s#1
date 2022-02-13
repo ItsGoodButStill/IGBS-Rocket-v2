@@ -25140,13 +25140,18 @@ GPS</text>
 <bus name="SWD:NRST,SWCLK,SWDIO,SWO">
 <segment>
 <wire x1="22.86" y1="93.98" x2="22.86" y2="91.44" width="0.762" layer="92"/>
-<wire x1="22.86" y1="91.44" x2="22.86" y2="88.9" width="0.762" layer="92"/>
-<wire x1="22.86" y1="88.9" x2="7.62" y2="88.9" width="0.762" layer="92"/>
-<label x="7.874" y="89.916" size="1.778" layer="95"/>
+<wire x1="22.86" y1="91.44" x2="7.62" y2="91.44" width="0.762" layer="92"/>
+<label x="7.874" y="92.456" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="76.2" x2="7.62" y2="76.2" width="0.762" layer="92"/>
 <label x="7.874" y="76.962" size="1.778" layer="95"/>
+</segment>
+</bus>
+<bus name="UART-GPS:GPS-RX,GPS-TX">
+<segment>
+<wire x1="22.86" y1="104.14" x2="7.62" y2="104.14" width="0.762" layer="92"/>
+<label x="7.62" y="104.902" size="1.778" layer="95"/>
 </segment>
 </bus>
 </busses>
@@ -25292,7 +25297,14 @@ GPS</text>
 <segment>
 <pinref part="U1" gate="A" pin="PA7"/>
 <wire x1="22.86" y1="109.22" x2="45.72" y2="109.22" width="0.1524" layer="91"/>
-<label x="30.48" y="109.22" size="1.778" layer="95"/>
+<label x="30.988" y="109.474" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPS-RX" class="0">
+<segment>
+<wire x1="22.86" y1="104.14" x2="45.72" y2="104.14" width="0.1524" layer="91"/>
+<label x="30.734" y="104.648" size="1.778" layer="95"/>
+<pinref part="U1" gate="A" pin="PA9"/>
 </segment>
 </net>
 </nets>
