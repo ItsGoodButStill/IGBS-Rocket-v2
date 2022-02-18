@@ -667,7 +667,7 @@ static void MX_SPI2_Init(void)
   GPIO_InitStruct.Alternate = LL_GPIO_AF_5;
   LL_GPIO_Init(SPI2_MOSI___IMU_GPIO_Port, &GPIO_InitStruct);
 
-  GPIO_InitStruct.Pin = SPI2_NSS___IMU_Pin|SPI2_SCK___IMU_Pin|LL_GPIO_PIN_14;
+  GPIO_InitStruct.Pin = SPI2_NSS___IMU_Pin|SPI2_SCK___IMU_Pin|SPI2_MISO___IMU_Pin;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_ALTERNATE;
   GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
   GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
@@ -1290,13 +1290,20 @@ static void MX_GPIO_Init(void)
   LL_GPIO_Init(GPIOE, &GPIO_InitStruct);
 
   /**/
-  GPIO_InitStruct.Pin = GPIO_OUT___LED_1_Pin|GPIO_OUT___LED_2_Pin|GPIO_OUT___LED_3_Pin|GPIO_OUT___LED_4_Pin
-                          |GPIO_OUT___MAGNET_Pin;
+  GPIO_InitStruct.Pin = GPIO_OUT___LED_1_Pin|GPIO_OUT___LED_2_Pin|GPIO_OUT___LED_3_Pin|GPIO_OUT___LED_4_Pin;
+  GPIO_InitStruct.Mode = LL_GPIO_MODE_OUTPUT;
+  GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
+  GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_OPENDRAIN;
+  GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
+  LL_GPIO_Init(GPIOE, &GPIO_InitStruct);
+
+  /**/
+  GPIO_InitStruct.Pin = GPIO_OUT___MAGNET_Pin;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_OUTPUT;
   GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
   GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
   GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
-  LL_GPIO_Init(GPIOE, &GPIO_InitStruct);
+  LL_GPIO_Init(GPIO_OUT___MAGNET_GPIO_Port, &GPIO_InitStruct);
 
 }
 

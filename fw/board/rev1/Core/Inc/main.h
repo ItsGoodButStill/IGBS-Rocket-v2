@@ -88,10 +88,10 @@ void Error_Handler(void);
 #define ADC_AUX_3_GPIO_Port GPIOC
 #define SPI2_MOSI___IMU_Pin LL_GPIO_PIN_1
 #define SPI2_MOSI___IMU_GPIO_Port GPIOC
-#define ADC_AUX_0_Pin LL_GPIO_PIN_2
-#define ADC_AUX_0_GPIO_Port GPIOC
-#define ADC_AUX_1_Pin LL_GPIO_PIN_3
+#define ADC_AUX_1_Pin LL_GPIO_PIN_2
 #define ADC_AUX_1_GPIO_Port GPIOC
+#define ADC_AUX_2_Pin LL_GPIO_PIN_3
+#define ADC_AUX_2_GPIO_Port GPIOC
 #define TIM2_CH1_PWM___SERVO1_A_Pin LL_GPIO_PIN_0
 #define TIM2_CH1_PWM___SERVO1_A_GPIO_Port GPIOA
 #define TIM5_CH2_PWM___SERVO1_B_Pin LL_GPIO_PIN_1
@@ -138,6 +138,8 @@ void Error_Handler(void);
 #define SPI2_NSS___IMU_GPIO_Port GPIOB
 #define SPI2_SCK___IMU_Pin LL_GPIO_PIN_13
 #define SPI2_SCK___IMU_GPIO_Port GPIOB
+#define SPI2_MISO___IMU_Pin LL_GPIO_PIN_14
+#define SPI2_MISO___IMU_GPIO_Port GPIOB
 #define USART1_RX___GPS_Pin LL_GPIO_PIN_15
 #define USART1_RX___GPS_GPIO_Port GPIOB
 #define TIM4_CH3_PWM___SERVO2_A_Pin LL_GPIO_PIN_14
