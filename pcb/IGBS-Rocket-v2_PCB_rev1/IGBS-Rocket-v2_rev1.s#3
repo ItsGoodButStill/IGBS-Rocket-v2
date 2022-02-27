@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -26836,7 +26836,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C27" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:33773439/3" value="4u7"/>
 <part name="R49" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/3" value="10k"/>
 <part name="U9" library="opamps" library_urn="urn:adsk.eagle:library:33908808" deviceset="MCP6V51T-E/MS" device="MSOP8_MS_MCH" package3d_urn="urn:adsk.eagle:package:33908820/4" value="MCP6V51T-E/MS"/>
-<part name="R53" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/3" value="75k"/>
+<part name="R53" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/3" value="60k"/>
 <part name="C28" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:33773439/3" value="1u8"/>
 <part name="C29" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:33773439/3" value="100n"/>
 <part name="B3" library="modules" library_urn="urn:adsk.eagle:library:34008249" deviceset="BF350" device="" package3d_urn="urn:adsk.eagle:package:34028571/4"/>
@@ -26844,7 +26844,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="B5" library="modules" library_urn="urn:adsk.eagle:library:34008249" deviceset="BF350" device="" package3d_urn="urn:adsk.eagle:package:34028571/4"/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3V3"/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3V3"/>
-<part name="D15" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:33775244" deviceset="DIODE-ZENER" device="16V" package3d_urn="urn:adsk.eagle:package:33775370/4" value="16V"/>
+<part name="D15" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:33775244" deviceset="DIODE-ZENER" device="16V" package3d_urn="urn:adsk.eagle:package:33775370/4" value="3V6"/>
 <part name="R55" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/3" value="4k7"/>
 <part name="R56" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/3" value="4k7"/>
 <part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3V3"/>
@@ -26865,7 +26865,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3V3"/>
 <part name="R42" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/3" value="12k"/>
 <part name="R43" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/3" value="6k8"/>
-<part name="D14" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:33775244" deviceset="DIODE-ZENER" device="16V" package3d_urn="urn:adsk.eagle:package:33775370/4" value="16V"/>
+<part name="D14" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:33775244" deviceset="DIODE-ZENER" device="16V" package3d_urn="urn:adsk.eagle:package:33775370/4" value="3V6"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="5V"/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="UART-AUX" library="pinhead2" library_urn="urn:adsk.eagle:library:34208331" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:34208457/2"/>
@@ -27045,7 +27045,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="154.178" y="126.238" size="1.778" layer="95"/>
 </segment>
 </bus>
-<bus name="APP-LED:LED1-RED,LED2-GREEN,LED3-BLUE,LED4-ORANGE">
+<bus name="APP-LED:LED1-BLUE,LED2-YELLOW,LED3-RED,LED4-WHITE">
 <segment>
 <wire x1="144.78" y1="124.46" x2="144.78" y2="116.84" width="0.762" layer="92"/>
 <wire x1="144.78" y1="116.84" x2="152.4" y2="116.84" width="0.762" layer="92"/>
@@ -27416,28 +27416,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U1" gate="A" pin="PB3"/>
 </segment>
 </net>
-<net name="LED1-RED" class="0">
+<net name="LED1-BLUE" class="0">
 <segment>
 <wire x1="144.78" y1="124.46" x2="121.92" y2="124.46" width="0.1524" layer="91"/>
 <label x="123.698" y="124.714" size="1.778" layer="95"/>
 <pinref part="U1" gate="A" pin="PE11"/>
 </segment>
 </net>
-<net name="LED2-GREEN" class="0">
+<net name="LED2-YELLOW" class="0">
 <segment>
 <wire x1="144.78" y1="121.92" x2="121.92" y2="121.92" width="0.1524" layer="91"/>
 <label x="123.698" y="122.174" size="1.778" layer="95"/>
 <pinref part="U1" gate="A" pin="PE12"/>
 </segment>
 </net>
-<net name="LED3-BLUE" class="0">
+<net name="LED3-RED" class="0">
 <segment>
 <wire x1="144.78" y1="119.38" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
 <label x="123.698" y="119.634" size="1.778" layer="95"/>
 <pinref part="U1" gate="A" pin="PE13"/>
 </segment>
 </net>
-<net name="LED4-ORANGE" class="0">
+<net name="LED4-WHITE" class="0">
 <segment>
 <wire x1="144.78" y1="116.84" x2="121.92" y2="116.84" width="0.1524" layer="91"/>
 <label x="123.698" y="117.094" size="1.778" layer="95"/>
