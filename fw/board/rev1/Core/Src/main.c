@@ -240,10 +240,10 @@ static void MX_ADC1_Init(void)
   /**ADC1 GPIO Configuration
   PA6   ------> ADC1_INP3
   */
-  GPIO_InitStruct.Pin = ADC1_IN3___GYRO_1_Pin;
+  GPIO_InitStruct.Pin = ADC1_IN3___ANG_RATE_Pin;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_ANALOG;
   GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
-  LL_GPIO_Init(ADC1_IN3___GYRO_1_GPIO_Port, &GPIO_InitStruct);
+  LL_GPIO_Init(ADC1_IN3___ANG_RATE_GPIO_Port, &GPIO_InitStruct);
 
   /* USER CODE BEGIN ADC1_Init 1 */
 
@@ -328,7 +328,7 @@ static void MX_ADC2_Init(void)
   GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
   LL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
-  GPIO_InitStruct.Pin = ADC5_IN14___5V_Pin|ADC2_IN15___12V_Pin;
+  GPIO_InitStruct.Pin = ADC2_IN14___5V_Pin|ADC2_IN15___12V_Pin;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_ANALOG;
   GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
   LL_GPIO_Init(GPIOA, &GPIO_InitStruct);
@@ -408,10 +408,10 @@ static void MX_ADC3_Init(void)
   PC2_C   ------> ADC3_INP0
   PC3_C   ------> ADC3_INP1
   */
-  GPIO_InitStruct.Pin = LL_GPIO_PIN_0;
+  GPIO_InitStruct.Pin = ADC3_IN10___AUX_3_Pin;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_ANALOG;
   GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
-  LL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+  LL_GPIO_Init(ADC3_IN10___AUX_3_GPIO_Port, &GPIO_InitStruct);
 
   LL_SYSCFG_OpenAnalogSwitch(LL_SYSCFG_ANALOG_SWITCH_PC2|LL_SYSCFG_ANALOG_SWITCH_PC3);
 
@@ -538,7 +538,7 @@ static void MX_I2C2_Init(void)
   PB10   ------> I2C2_SCL
   PB11   ------> I2C2_SDA
   */
-  GPIO_InitStruct.Pin = LL_GPIO_PIN_10|LL_GPIO_PIN_11;
+  GPIO_InitStruct.Pin = I2C2_SCL___AUX_Pin|I2C2_SDA___AUX_Pin;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_ALTERNATE;
   GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
   GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_OPENDRAIN;
@@ -665,7 +665,7 @@ static void MX_SPI2_Init(void)
   PB14   ------> SPI2_MISO
   PB15   ------> SPI2_MOSI
   */
-  GPIO_InitStruct.Pin = SPI2_NSS___IMU_Pin|SPI2_SCK___IMU_Pin|SPI2_MISO___IMU_Pin|LL_GPIO_PIN_15;
+  GPIO_InitStruct.Pin = SPI2_NSS___IMU_Pin|SPI2_SCK___IMU_Pin|SPI2_MISO___IMU_Pin|SPI2_MOSI___IMU_Pin;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_ALTERNATE;
   GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
   GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
@@ -722,15 +722,15 @@ static void MX_SPI3_Init(void)
   PC10   ------> SPI3_SCK
   PC11   ------> SPI3_MISO
   */
-  GPIO_InitStruct.Pin = LL_GPIO_PIN_2;
+  GPIO_InitStruct.Pin = SPI3_MOSI___AUX_Pin;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_ALTERNATE;
   GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
   GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
   GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
   GPIO_InitStruct.Alternate = LL_GPIO_AF_7;
-  LL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+  LL_GPIO_Init(SPI3_MOSI___AUX_GPIO_Port, &GPIO_InitStruct);
 
-  GPIO_InitStruct.Pin = LL_GPIO_PIN_10|LL_GPIO_PIN_11;
+  GPIO_InitStruct.Pin = SPI3_SCK___AUX_Pin|SPI3_MISO___AUX_Pin;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_ALTERNATE;
   GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
   GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
@@ -1153,7 +1153,7 @@ static void MX_USART3_UART_Init(void)
   PD8   ------> USART3_TX
   PD9   ------> USART3_RX
   */
-  GPIO_InitStruct.Pin = LL_GPIO_PIN_8|LL_GPIO_PIN_9;
+  GPIO_InitStruct.Pin = USART3_TX___AUX_Pin|USART3_RX___AUX_Pin;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_ALTERNATE;
   GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
   GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
@@ -1212,26 +1212,34 @@ static void MX_GPIO_Init(void)
   LL_AHB4_GRP1_EnableClock(LL_AHB4_GRP1_PERIPH_GPIOD);
 
   /**/
-  LL_GPIO_ResetOutputPin(FET_12V_GPIO_Port, FET_12V_Pin);
+  LL_GPIO_ResetOutputPin(GPIOE, GPIO_AUX___OUT1_Pin|GPIO_AUX___OUT2_Pin|GPIO_OUT___LED_1_Pin|GPIO_OUT___LED_2_Pin
+                          |GPIO_OUT___LED_3_Pin|GPIO_OUT___LED_4_Pin|GPIO_OUT___MAGNET_Pin);
 
   /**/
-  LL_GPIO_ResetOutputPin(GPIOE, GPIO_OUT___LED_1_Pin|GPIO_OUT___LED_2_Pin|GPIO_OUT___LED_3_Pin|GPIO_OUT___LED_4_Pin
-                          |GPIO_OUT___MAGNET_Pin);
+  LL_GPIO_ResetOutputPin(CTRL_12V_GPIO_Port, CTRL_12V_Pin);
 
   /**/
-  GPIO_InitStruct.Pin = GPIO_AUX_1_Pin|GPIO_AUX_2_Pin|GPIO_AUX_3_Pin|GPIO_AUX_4_Pin
-                          |GPIO_IN___SDCARD_DETECT_Pin|GPIO_IN___PIANO3_Pin|GPIO_IN___PIANO4_Pin|GPIO_IN___BTN1_Pin;
+  GPIO_InitStruct.Pin = GPIO_AUX___IN1_Pin|GPIO_AUX___IN2_Pin|GPIO_IN___SDCARD_DETECT_Pin|GPIO_IN___PIANO3_Pin
+                          |GPIO_IN___PIANO4_Pin|GPIO_IN___BTN1_Pin;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
   LL_GPIO_Init(GPIOE, &GPIO_InitStruct);
 
   /**/
-  GPIO_InitStruct.Pin = FET_12V_Pin;
+  GPIO_InitStruct.Pin = GPIO_AUX___OUT1_Pin|GPIO_AUX___OUT2_Pin|GPIO_OUT___MAGNET_Pin;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_OUTPUT;
   GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
   GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
   GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
-  LL_GPIO_Init(FET_12V_GPIO_Port, &GPIO_InitStruct);
+  LL_GPIO_Init(GPIOE, &GPIO_InitStruct);
+
+  /**/
+  GPIO_InitStruct.Pin = CTRL_12V_Pin;
+  GPIO_InitStruct.Mode = LL_GPIO_MODE_OUTPUT;
+  GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
+  GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
+  GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
+  LL_GPIO_Init(CTRL_12V_GPIO_Port, &GPIO_InitStruct);
 
   /**/
   GPIO_InitStruct.Pin = GPIO_OUT___LED_1_Pin|GPIO_OUT___LED_2_Pin|GPIO_OUT___LED_3_Pin|GPIO_OUT___LED_4_Pin;
@@ -1240,14 +1248,6 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_OPENDRAIN;
   GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
   LL_GPIO_Init(GPIOE, &GPIO_InitStruct);
-
-  /**/
-  GPIO_InitStruct.Pin = GPIO_OUT___MAGNET_Pin;
-  GPIO_InitStruct.Mode = LL_GPIO_MODE_OUTPUT;
-  GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
-  GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
-  GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
-  LL_GPIO_Init(GPIO_OUT___MAGNET_GPIO_Port, &GPIO_InitStruct);
 
 }
 
