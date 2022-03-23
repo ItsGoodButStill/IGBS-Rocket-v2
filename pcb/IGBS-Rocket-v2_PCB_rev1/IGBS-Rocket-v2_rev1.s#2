@@ -23951,7 +23951,7 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="GY-NEO6MV2" urn="urn:adsk.eagle:package:34029438/4" type="model" library_version="13">
+<package3d name="GY-NEO6MV2" urn="urn:adsk.eagle:package:34029438/6" type="model" library_version="19">
 <packageinstances>
 <packageinstance name="GY-NEO6MV2"/>
 </packageinstances>
@@ -24025,7 +24025,7 @@ Module</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="GY-NEO6MV2" urn="urn:adsk.eagle:component:34029439/3" prefix="B" library_version="13">
+<deviceset name="GY-NEO6MV2" urn="urn:adsk.eagle:component:34029439/4" prefix="B" library_version="19">
 <gates>
 <gate name="G$1" symbol="GY-NEO6MV2" x="2.54" y="2.54"/>
 </gates>
@@ -24042,7 +24042,7 @@ Module</text>
 <connect gate="G$1" pin="VCC" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:34029438/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34029438/6"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -28193,7 +28193,7 @@ Based on the following sources:
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3V3"/>
 <part name="P+18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="5V"/>
-<part name="B6" library="modules" library_urn="urn:adsk.eagle:library:34008249" deviceset="GY-NEO6MV2" device="" package3d_urn="urn:adsk.eagle:package:34029438/4"/>
+<part name="B6" library="modules" library_urn="urn:adsk.eagle:library:34008249" deviceset="GY-NEO6MV2" device="" package3d_urn="urn:adsk.eagle:package:34029438/6"/>
 <part name="P+19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3V3"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3V3"/>

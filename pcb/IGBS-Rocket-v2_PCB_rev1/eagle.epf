@@ -329,5 +329,5 @@ Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="4000 1440"
+Screen="1440 900"
 Window="Win_1"

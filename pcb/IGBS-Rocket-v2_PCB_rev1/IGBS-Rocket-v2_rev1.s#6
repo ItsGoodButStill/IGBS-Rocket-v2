@@ -24122,7 +24122,7 @@ Module</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="86SMX" urn="urn:adsk.eagle:package:34017009/3" type="box" library_version="4">
+<package3d name="86SMX" urn="urn:adsk.eagle:package:34017009/4" type="model" library_version="5">
 <description>&lt;b&gt;CRYSTAL RESONATOR&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="ENC-03RC"/>
@@ -24144,7 +24144,7 @@ Module</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ENC-03RC" urn="urn:adsk.eagle:component:34017010/4" prefix="Q" uservalue="yes" library_version="4">
+<deviceset name="ENC-03RC" urn="urn:adsk.eagle:component:34017010/5" prefix="Q" uservalue="yes" library_version="5">
 <description>&lt;b&gt;CRYSTAL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="ENC-03RC" x="0" y="0"/>
@@ -24158,7 +24158,7 @@ Module</text>
 <connect gate="G$1" pin="VREF" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:34017009/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34017009/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -27815,7 +27815,7 @@ Based on the following sources:
 </package>
 </packages>
 <packages3d>
-<package3d name="2,8-PAD" urn="urn:adsk.eagle:package:14281/1" type="box" library_version="1">
+<package3d name="2,8-PAD" urn="urn:adsk.eagle:package:34781481/2" type="empty" library_version="2">
 <description>MOUNTING PAD 2.8 mm, round</description>
 <packageinstances>
 <packageinstance name="2,8-PAD"/>
@@ -27889,7 +27889,7 @@ Based on the following sources:
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MOUNT-PAD-ROUND" urn="urn:adsk.eagle:component:34781438/1" prefix="H" library_version="1">
+<deviceset name="MOUNT-PAD-ROUND" urn="urn:adsk.eagle:component:34781438/2" prefix="H" library_version="2">
 <description>&lt;b&gt;MOUNTING PAD&lt;/b&gt;, round</description>
 <gates>
 <gate name="G$1" symbol="MOUNT-PAD" x="0" y="0"/>
@@ -27900,7 +27900,7 @@ Based on the following sources:
 <connect gate="G$1" pin="MOUNT" pad="B2,8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34781481/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -28128,10 +28128,10 @@ Based on the following sources:
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3V3"/>
 <part name="R14" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/3" value="10K"/>
 <part name="R30" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/3" value="10K"/>
-<part name="H1" library="holes3" library_urn="urn:adsk.eagle:library:34781430" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8"/>
-<part name="H2" library="holes3" library_urn="urn:adsk.eagle:library:34781430" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8"/>
-<part name="H3" library="holes3" library_urn="urn:adsk.eagle:library:34781430" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8"/>
-<part name="H4" library="holes3" library_urn="urn:adsk.eagle:library:34781430" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1" override_package3d_urn="urn:adsk.eagle:package:34424229/2" override_package_urn="urn:adsk.eagle:footprint:14250/1" value="MOUNT-PAD-ROUND2.8"/>
+<part name="H1" library="holes3" library_urn="urn:adsk.eagle:library:34781430" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:34781481/2" value="MOUNT-PAD-ROUND2.8"/>
+<part name="H2" library="holes3" library_urn="urn:adsk.eagle:library:34781430" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:34781481/2" value="MOUNT-PAD-ROUND2.8"/>
+<part name="H3" library="holes3" library_urn="urn:adsk.eagle:library:34781430" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:34781481/2" value="MOUNT-PAD-ROUND2.8"/>
+<part name="H4" library="holes3" library_urn="urn:adsk.eagle:library:34781430" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:34781481/2" override_package3d_urn="urn:adsk.eagle:package:34424229/2" override_package_urn="urn:adsk.eagle:footprint:14250/1" value="MOUNT-PAD-ROUND2.8"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="PWR-A" library="jst-XH2" library_urn="urn:adsk.eagle:library:33898220" deviceset="XT30" device="PW-M" package3d_urn="urn:adsk.eagle:package:33906407/4"/>
 <part name="PWR-B" library="jst-XH2" library_urn="urn:adsk.eagle:library:33898220" deviceset="S2B-PH-K-S(LF)(SN)" device="CONN_S2B-PH-K-S_JST" package3d_urn="urn:adsk.eagle:package:33906089/3" value="S2B-PH-K-S"/>
@@ -28171,7 +28171,7 @@ Based on the following sources:
 <part name="R50" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/3" value="10k"/>
 <part name="R51" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/3" value="10k"/>
 <part name="R52" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/3" value="10k"/>
-<part name="Q2" library="gyro" library_urn="urn:adsk.eagle:library:34017006" deviceset="ENC-03RC" device="" package3d_urn="urn:adsk.eagle:package:34017009/3" value="ENC-03"/>
+<part name="Q2" library="gyro" library_urn="urn:adsk.eagle:library:34017006" deviceset="ENC-03RC" device="" package3d_urn="urn:adsk.eagle:package:34017009/4" value="ENC-03"/>
 <part name="C25" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:33773439/3" value="100n"/>
 <part name="R48" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/3" value="100k"/>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="5V"/>
@@ -28254,8 +28254,8 @@ Based on the following sources:
 <part name="C32" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="CPOL-EU" device="E2.5-7" package3d_urn="urn:adsk.eagle:package:33773300/4" value="330u"/>
 <part name="R60" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/3" value="1K"/>
 <part name="R61" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/3" value="1K"/>
-<part name="H5" library="holes3" library_urn="urn:adsk.eagle:library:34781430" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8"/>
-<part name="H6" library="holes3" library_urn="urn:adsk.eagle:library:34781430" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8"/>
+<part name="H5" library="holes3" library_urn="urn:adsk.eagle:library:34781430" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:34781481/2" value="MOUNT-PAD-ROUND2.8"/>
+<part name="H6" library="holes3" library_urn="urn:adsk.eagle:library:34781430" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:34781481/2" value="MOUNT-PAD-ROUND2.8"/>
 <part name="FRAME14" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="CR2" library="ref" library_urn="urn:adsk.eagle:library:34424269" deviceset="TL431QDBZR,215" device="SOT23_TO-236AB_NEX" package3d_urn="urn:adsk.eagle:package:34424276/3" value="TS4040DILT-2.5 "/>
 <part name="R4" library="trimmer" library_urn="urn:adsk.eagle:library:34424339" deviceset="PVG3A103C01R00" device="RES_C01R00" package3d_urn="urn:adsk.eagle:package:34424346/2" value="500k"/>

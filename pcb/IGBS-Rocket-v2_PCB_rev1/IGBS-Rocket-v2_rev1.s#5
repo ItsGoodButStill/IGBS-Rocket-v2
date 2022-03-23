@@ -24122,7 +24122,7 @@ Module</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="86SMX" urn="urn:adsk.eagle:package:34017009/3" type="box" library_version="4">
+<package3d name="86SMX" urn="urn:adsk.eagle:package:34017009/4" type="model" library_version="5">
 <description>&lt;b&gt;CRYSTAL RESONATOR&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="ENC-03RC"/>
@@ -24144,7 +24144,7 @@ Module</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ENC-03RC" urn="urn:adsk.eagle:component:34017010/4" prefix="Q" uservalue="yes" library_version="4">
+<deviceset name="ENC-03RC" urn="urn:adsk.eagle:component:34017010/5" prefix="Q" uservalue="yes" library_version="5">
 <description>&lt;b&gt;CRYSTAL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="ENC-03RC" x="0" y="0"/>
@@ -24158,7 +24158,7 @@ Module</text>
 <connect gate="G$1" pin="VREF" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:34017009/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34017009/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -28171,7 +28171,7 @@ Based on the following sources:
 <part name="R50" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/3" value="10k"/>
 <part name="R51" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/3" value="10k"/>
 <part name="R52" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/3" value="10k"/>
-<part name="Q2" library="gyro" library_urn="urn:adsk.eagle:library:34017006" deviceset="ENC-03RC" device="" package3d_urn="urn:adsk.eagle:package:34017009/3" value="ENC-03"/>
+<part name="Q2" library="gyro" library_urn="urn:adsk.eagle:library:34017006" deviceset="ENC-03RC" device="" package3d_urn="urn:adsk.eagle:package:34017009/4" value="ENC-03"/>
 <part name="C25" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:33773439/3" value="100n"/>
 <part name="R48" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/3" value="100k"/>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="5V"/>
@@ -31398,21 +31398,6 @@ RAM    = 1 MB</text>
 <pinref part="TP2" gate="G$1" pin="TP"/>
 </segment>
 </net>
-<net name="3V3" class="0">
-<segment>
-<pinref part="U5" gate="G$1" pin="VDD"/>
-<wire x1="116.84" y1="99.06" x2="127" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="127" y1="99.06" x2="142.24" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="99.06" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="C36" gate="G$1" pin="1"/>
-<wire x1="127" y1="99.06" x2="127" y2="68.58" width="0.1524" layer="91"/>
-<junction x="127" y="99.06"/>
-<pinref part="C31" gate="G$1" pin="1"/>
-<pinref part="L4" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="111.76" x2="116.84" y2="99.06" width="0.1524" layer="91"/>
-<junction x="116.84" y="99.06"/>
-</segment>
-</net>
 <net name="VCC" class="0">
 <segment>
 <pinref part="P+11" gate="VCC" pin="VCC"/>
@@ -31435,6 +31420,21 @@ RAM    = 1 MB</text>
 <wire x1="88.9" y1="121.92" x2="88.9" y2="127" width="0.1524" layer="91"/>
 <pinref part="L4" gate="G$1" pin="1"/>
 <junction x="116.84" y="127"/>
+</segment>
+</net>
+<net name="3V3-SD" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="VDD"/>
+<wire x1="116.84" y1="99.06" x2="127" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="127" y1="99.06" x2="142.24" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="99.06" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="C36" gate="G$1" pin="1"/>
+<wire x1="127" y1="99.06" x2="127" y2="68.58" width="0.1524" layer="91"/>
+<junction x="127" y="99.06"/>
+<pinref part="C31" gate="G$1" pin="1"/>
+<pinref part="L4" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="111.76" x2="116.84" y2="99.06" width="0.1524" layer="91"/>
+<junction x="116.84" y="99.06"/>
 </segment>
 </net>
 </nets>
