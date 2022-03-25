@@ -66,6 +66,8 @@ extern "C" {
 
 /* USER CODE END EM */
 
+void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
+
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
 
@@ -74,18 +76,22 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define GPIO_AUX___IN1_Pin LL_GPIO_PIN_2
+#define SPI4_SCK___BMP_Pin LL_GPIO_PIN_2
+#define SPI4_SCK___BMP_GPIO_Port GPIOE
+#define GPIO_AUX___IN1_Pin LL_GPIO_PIN_3
 #define GPIO_AUX___IN1_GPIO_Port GPIOE
-#define GPIO_AUX___IN2_Pin LL_GPIO_PIN_3
-#define GPIO_AUX___IN2_GPIO_Port GPIOE
-#define GPIO_AUX___OUT1_Pin LL_GPIO_PIN_4
-#define GPIO_AUX___OUT1_GPIO_Port GPIOE
-#define GPIO_AUX___OUT2_Pin LL_GPIO_PIN_5
-#define GPIO_AUX___OUT2_GPIO_Port GPIOE
-#define TIM15_CH2_PWM___BUZZER_Pin LL_GPIO_PIN_6
-#define TIM15_CH2_PWM___BUZZER_GPIO_Port GPIOE
-#define CTRL_12V_Pin LL_GPIO_PIN_13
-#define CTRL_12V_GPIO_Port GPIOC
+#define SPI4_CS___BMP_Pin LL_GPIO_PIN_4
+#define SPI4_CS___BMP_GPIO_Port GPIOE
+#define SPI4_MISO___BMP_Pin LL_GPIO_PIN_5
+#define SPI4_MISO___BMP_GPIO_Port GPIOE
+#define SPI4_MOSI___BMP_Pin LL_GPIO_PIN_6
+#define SPI4_MOSI___BMP_GPIO_Port GPIOE
+#define GPIO_AUX___IN2_Pin LL_GPIO_PIN_13
+#define GPIO_AUX___IN2_GPIO_Port GPIOC
+#define GPIO_AUX___OUT1_Pin LL_GPIO_PIN_14
+#define GPIO_AUX___OUT1_GPIO_Port GPIOC
+#define GPIO_AUX___OUT2_Pin LL_GPIO_PIN_15
+#define GPIO_AUX___OUT2_GPIO_Port GPIOC
 #define ADC3_IN10___AUX_3_Pin LL_GPIO_PIN_0
 #define ADC3_IN10___AUX_3_GPIO_Port GPIOC
 #define ADC2_IN11___6V_Pin LL_GPIO_PIN_1
@@ -156,6 +162,8 @@ void Error_Handler(void);
 #define USART3_RX___AUX_GPIO_Port GPIOD
 #define TIM4_CH3_PWM___SERVO3_Pin LL_GPIO_PIN_14
 #define TIM4_CH3_PWM___SERVO3_GPIO_Port GPIOD
+#define TIM3_CH1_PWM___BUZZER_Pin LL_GPIO_PIN_6
+#define TIM3_CH1_PWM___BUZZER_GPIO_Port GPIOC
 #define USART1_TX___GPS_Pin LL_GPIO_PIN_9
 #define USART1_TX___GPS_GPIO_Port GPIOA
 #define USART1_RX___GPS_Pin LL_GPIO_PIN_10
@@ -180,6 +188,8 @@ void Error_Handler(void);
 #define I2C1_SCL___INTERN_GPIO_Port GPIOB
 #define I2C1_SDA___INTERN_Pin LL_GPIO_PIN_7
 #define I2C1_SDA___INTERN_GPIO_Port GPIOB
+#define GPIO_OUT___CTRL_12V_Pin LL_GPIO_PIN_1
+#define GPIO_OUT___CTRL_12V_GPIO_Port GPIOE
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
