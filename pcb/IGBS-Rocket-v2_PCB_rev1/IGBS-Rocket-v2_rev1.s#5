@@ -33514,7 +33514,7 @@ RANGE   = 0 - 2.73 V</text>
 <wire x1="50.8" y1="111.76" x2="139.7" y2="111.76" width="0.254" layer="104" style="shortdash"/>
 <wire x1="50.8" y1="111.76" x2="50.8" y2="170.18" width="0.254" layer="104" style="shortdash"/>
 <wire x1="139.7" y1="111.76" x2="139.7" y2="170.18" width="0.254" layer="104" style="shortdash"/>
-<text x="52.07" y="166.37" size="2.286" layer="104" ratio="10">9-DOF IMU</text>
+<text x="52.07" y="166.37" size="2.286" layer="104" ratio="10">IMU/MARG</text>
 <wire x1="175.26" y1="152.4" x2="243.84" y2="152.4" width="0.254" layer="104" style="shortdash"/>
 <wire x1="175.26" y1="101.6" x2="243.84" y2="101.6" width="0.254" layer="104" style="shortdash"/>
 <wire x1="175.26" y1="101.6" x2="175.26" y2="152.4" width="0.254" layer="104" style="shortdash"/>
@@ -34040,7 +34040,7 @@ RANGE   = 0 - 2.73 V</text>
 <wire x1="55.88" y1="66.04" x2="71.12" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$75" class="0">
+<net name="GPS-VCC" class="0">
 <segment>
 <pinref part="U11" gate="G$1" pin="23_VCC"/>
 <wire x1="55.88" y1="40.64" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
@@ -34060,7 +34060,7 @@ RANGE   = 0 - 2.73 V</text>
 <pinref part="D19" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="N$77" class="0">
+<net name="GPS-VBCKP" class="0">
 <segment>
 <pinref part="R99" gate="G$1" pin="2"/>
 <pinref part="U11" gate="G$1" pin="22_V_BCKP"/>
@@ -34089,7 +34089,7 @@ RANGE   = 0 - 2.73 V</text>
 <pinref part="L6" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$81" class="0">
+<net name="GPS-RF-IN" class="0">
 <segment>
 <pinref part="L6" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="91.44" x2="142.24" y2="99.06" width="0.1524" layer="91"/>
@@ -34101,7 +34101,7 @@ RANGE   = 0 - 2.73 V</text>
 <junction x="137.16" y="99.06"/>
 </segment>
 </net>
-<net name="N$82" class="0">
+<net name="GPS-VCC-RF" class="0">
 <segment>
 <pinref part="R55" gate="G$1" pin="2"/>
 <pinref part="U11" gate="G$1" pin="9_VCC_RF"/>
