@@ -1649,7 +1649,7 @@ Also added pins to connect to mounting / shield pads if required (probably not g
 <text x="-2.9988" y="-4.445" size="0.889" layer="21" ratio="10">&gt;Value</text>
 <text x="-2.8902" y="3.683" size="0.889" layer="27" ratio="10">&gt;Name</text>
 </package>
-<package name="SW_A6FR-4101_OMR" urn="urn:adsk.eagle:footprint:33768236/4" library_version="8">
+<package name="SW_A6FR-4101_OMR" urn="urn:adsk.eagle:footprint:33768236/5" library_version="11">
 <pad name="1" x="-7.62" y="7.62" drill="1.016" diameter="2.032" shape="octagon"/>
 <pad name="8" x="0" y="7.62" drill="1.016" diameter="2.032" shape="octagon"/>
 <pad name="2" x="-7.62" y="5.08" drill="1.016" diameter="2.032" shape="octagon"/>
@@ -1662,14 +1662,10 @@ Also added pins to connect to mounting / shield pads if required (probably not g
 <wire x1="1.267" y1="-2.177" x2="1.267" y2="9.797" width="0.1524" layer="21"/>
 <wire x1="1.267" y1="9.797" x2="-8.887" y2="9.797" width="0.1524" layer="21"/>
 <wire x1="-8.887" y1="9.797" x2="-8.887" y2="-2.177" width="0.1524" layer="21"/>
-<wire x1="-9.141" y1="7.62" x2="-9.903" y2="7.62" width="0.508" layer="21" curve="-180"/>
-<wire x1="-9.903" y1="7.62" x2="-9.141" y2="7.62" width="0.508" layer="21" curve="-180"/>
 <wire x1="-8.76" y1="-2.05" x2="1.14" y2="-2.05" width="0.1524" layer="51"/>
 <wire x1="1.14" y1="-2.05" x2="1.14" y2="9.67" width="0.1524" layer="51"/>
 <wire x1="1.14" y1="9.67" x2="-8.76" y2="9.67" width="0.1524" layer="51"/>
 <wire x1="-8.76" y1="9.67" x2="-8.76" y2="-2.05" width="0.1524" layer="51"/>
-<wire x1="-9.141" y1="7.62" x2="-9.903" y2="7.62" width="0.508" layer="22" curve="-180"/>
-<wire x1="-9.903" y1="7.62" x2="-9.141" y2="7.62" width="0.508" layer="22" curve="-180"/>
 <wire x1="0" y1="7.62" x2="0" y2="11.3633" width="0.1524" layer="47"/>
 <wire x1="-7.874" y1="7.62" x2="-7.874" y2="11.3633" width="0.1524" layer="47"/>
 <wire x1="-7.874" y1="10.9823" x2="0" y2="10.9823" width="0.1524" layer="47"/>
@@ -1721,7 +1717,7 @@ Also added pins to connect to mounting / shield pads if required (probably not g
 <packageinstance name="SW_B3FS-1000_OMR"/>
 </packageinstances>
 </package3d>
-<package3d name="SW_A6FR-4101_OMR" urn="urn:adsk.eagle:package:33768238/5" type="model" library_version="8">
+<package3d name="SW_A6FR-4101_OMR" urn="urn:adsk.eagle:package:33768238/6" type="model" library_version="11">
 <packageinstances>
 <packageinstance name="SW_A6FR-4101_OMR"/>
 </packageinstances>
@@ -1821,7 +1817,7 @@ Also added pins to connect to mounting / shield pads if required (probably not g
 </device>
 </devices>
 </deviceset>
-<deviceset name="A6FR-4101" urn="urn:adsk.eagle:component:33768239/5" prefix="SW" library_version="8">
+<deviceset name="A6FR-4101" urn="urn:adsk.eagle:component:33768239/6" prefix="SW" library_version="11">
 <gates>
 <gate name="A" symbol="SW4_A6D-4100" x="0" y="0"/>
 </gates>
@@ -1838,7 +1834,7 @@ Also added pins to connect to mounting / shield pads if required (probably not g
 <connect gate="A" pin="8" pad="8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:33768238/5"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33768238/6"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -24273,9 +24269,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="-1.016" y="-1.143" size="0.0254" layer="27">&gt;VALUE</text>
 <text x="0" y="-2.54" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
 </package>
-<package name="SHORT" urn="urn:adsk.eagle:footprint:34543835/2" library_version="5">
-<smd name="GND" x="-0.254" y="0" dx="1.27" dy="0.508" layer="1" roundness="50"/>
-<smd name="AGND" x="0.254" y="0" dx="1.27" dy="0.508" layer="1" roundness="50"/>
+<package name="SHORT" urn="urn:adsk.eagle:footprint:34543835/3" library_version="6">
+<smd name="GND" x="-0.254" y="0" dx="0.508" dy="0.508" layer="1"/>
+<smd name="AGND" x="0.254" y="0" dx="0.508" dy="0.508" layer="1"/>
 </package>
 </packages>
 <packages3d>
@@ -24507,7 +24503,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <packageinstance name="TP20SQ"/>
 </packageinstances>
 </package3d>
-<package3d name="SHORT" urn="urn:adsk.eagle:package:34543836/2" type="box" library_version="5">
+<package3d name="SHORT" urn="urn:adsk.eagle:package:34543836/3" type="box" library_version="6">
 <packageinstances>
 <packageinstance name="SHORT"/>
 </packageinstances>
@@ -25070,7 +25066,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="SHORT" urn="urn:adsk.eagle:component:34543837/2" library_version="5">
+<deviceset name="SHORT" urn="urn:adsk.eagle:component:34543837/3" library_version="6">
 <gates>
 <gate name="G$1" symbol="SHORT" x="0" y="0"/>
 </gates>
@@ -25081,7 +25077,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <connect gate="G$1" pin="2" pad="GND"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:34543836/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34543836/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -27485,7 +27481,7 @@ Based on the following sources:
 </library>
 <library name="gps" urn="urn:adsk.eagle:library:34886882">
 <packages>
-<package name="NEO-M8" urn="urn:adsk.eagle:footprint:34886883/1" library_version="2">
+<package name="NEO-M8" urn="urn:adsk.eagle:footprint:34886883/2" library_version="5">
 <description>u-blox NEO GNSS module</description>
 <wire x1="-4.43" y1="7.5" x2="5.23" y2="7.5" width="0.127" layer="21"/>
 <wire x1="-4.43" y1="7.5" x2="-4.43" y2="-8.5" width="0.127" layer="21"/>
@@ -27517,10 +27513,11 @@ Based on the following sources:
 <smd name="2" x="6.4" y="-6.3" dx="0.8" dy="1.8" layer="1" rot="R90"/>
 <smd name="1" x="6.4" y="-7.4" dx="0.8" dy="1.8" layer="1" rot="R90"/>
 <text x="4.29" y="0.9" size="1.016" layer="21" rot="R180">u-blox NEO</text>
+<text x="-4.318" y="8.001" size="0.889" layer="21" ratio="10">&gt;NAME</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="NEO-M8" urn="urn:adsk.eagle:package:34886885/2" type="model" library_version="2">
+<package3d name="NEO-M8" urn="urn:adsk.eagle:package:34886885/3" type="model" library_version="5">
 <description>u-blox NEO GNSS module</description>
 <packageinstances>
 <packageinstance name="NEO-M8"/>
@@ -27564,7 +27561,7 @@ Based on the following sources:
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NEO-M8" urn="urn:adsk.eagle:component:34886886/4" library_version="4">
+<deviceset name="NEO-M8" urn="urn:adsk.eagle:component:34886886/5" library_version="5">
 <description>u-blox NEO GNSS module</description>
 <gates>
 <gate name="G$1" symbol="NEO-M8" x="0" y="38.1"/>
@@ -27598,7 +27595,7 @@ Based on the following sources:
 <connect gate="G$1" pin="9_VCC_RF" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:34886885/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34886885/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -29668,7 +29665,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U5" library="microsd" library_urn="urn:adsk.eagle:library:33748539" deviceset="MICROSD-PUSH-OUT" device="" package3d_urn="urn:adsk.eagle:package:33748542/3" value="MICROSD"/>
 <part name="U6" library="esp-12e-f" library_urn="urn:adsk.eagle:library:33749161" deviceset="ESP-12E/F" device="" package3d_urn="urn:adsk.eagle:package:33749164/3"/>
 <part name="USB" library="usb" library_urn="urn:adsk.eagle:library:33767055" deviceset="USB-MINIB" device="-5PIN" package3d_urn="urn:adsk.eagle:package:33767058/3"/>
-<part name="PIANO" library="switch_btn" library_urn="urn:adsk.eagle:library:33768127" deviceset="A6FR-4101" device="SW_A6FR-4101_OMR" package3d_urn="urn:adsk.eagle:package:33768238/5"/>
+<part name="PIANO" library="switch_btn" library_urn="urn:adsk.eagle:library:33768127" deviceset="A6FR-4101" device="SW_A6FR-4101_OMR" package3d_urn="urn:adsk.eagle:package:33768238/6"/>
 <part name="D1" library="leds" library_urn="urn:adsk.eagle:library:33768454" deviceset="LED-GREEN" device="1206" package3d_urn="urn:adsk.eagle:package:33768473/3" value="GREEN"/>
 <part name="D3" library="leds" library_urn="urn:adsk.eagle:library:33768454" deviceset="LED-GREEN" device="1206" package3d_urn="urn:adsk.eagle:package:33768473/3" value="GREEN"/>
 <part name="D4" library="leds" library_urn="urn:adsk.eagle:library:33768454" deviceset="LED-GREEN" device="1206" package3d_urn="urn:adsk.eagle:package:33768473/3" value="GREEN"/>
@@ -29821,12 +29818,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D14" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:33775244" deviceset="DIODE-ZENER" device="16V" package3d_urn="urn:adsk.eagle:package:33775370/4" value="3V6"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="5V"/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="UART-AUX" library="pinhead2-nopin" library_urn="urn:adsk.eagle:library:34953187" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:34208457/3"/>
-<part name="SPI-AUX" library="pinhead2-nopin" library_urn="urn:adsk.eagle:library:34953187" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:34208454/3"/>
-<part name="ADC-AUX" library="pinhead2-nopin" library_urn="urn:adsk.eagle:library:34953187" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:34208454/3"/>
-<part name="I2C-AUX" library="pinhead2-nopin" library_urn="urn:adsk.eagle:library:34953187" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:34208457/3"/>
-<part name="GND-AUX" library="pinhead2-nopin" library_urn="urn:adsk.eagle:library:34953187" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:34208457/3"/>
-<part name="GPIO-AUX" library="pinhead2-nopin" library_urn="urn:adsk.eagle:library:34953187" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:34208452/3"/>
+<part name="UART" library="pinhead2-nopin" library_urn="urn:adsk.eagle:library:34953187" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:34208457/3"/>
+<part name="SPI" library="pinhead2-nopin" library_urn="urn:adsk.eagle:library:34953187" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:34208454/3"/>
+<part name="ADC" library="pinhead2-nopin" library_urn="urn:adsk.eagle:library:34953187" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:34208454/3"/>
+<part name="I2C" library="pinhead2-nopin" library_urn="urn:adsk.eagle:library:34953187" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:34208457/3"/>
+<part name="GND" library="pinhead2-nopin" library_urn="urn:adsk.eagle:library:34953187" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:34208457/3"/>
+<part name="GPIO" library="pinhead2-nopin" library_urn="urn:adsk.eagle:library:34953187" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:34208452/3"/>
 <part name="FRAME10" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="FRAME11" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="R57" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/5" value="1k"/>
@@ -29916,7 +29913,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="AGND"/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="AGND"/>
-<part name="U$1" library="testpad2" library_urn="urn:adsk.eagle:library:34206536" deviceset="SHORT" device="" package3d_urn="urn:adsk.eagle:package:34543836/2"/>
+<part name="U$1" library="testpad2" library_urn="urn:adsk.eagle:library:34206536" deviceset="SHORT" device="" package3d_urn="urn:adsk.eagle:package:34543836/3"/>
 <part name="R90" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/5" value="4k7">
 <attribute name="SPICEPREFIX" value="R"/>
 </part>
@@ -29984,7 +29981,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C52" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:33773439/3" value="100n"/>
 <part name="TP16" library="testpad2" library_urn="urn:adsk.eagle:library:34206536" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:34206542/3"/>
 <part name="TP17" library="testpad2" library_urn="urn:adsk.eagle:library:34206536" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:34206542/3"/>
-<part name="U11" library="gps" library_urn="urn:adsk.eagle:library:34886882" deviceset="NEO-M8" device="" package3d_urn="urn:adsk.eagle:package:34886885/2" value="u-blox NEO-M6"/>
+<part name="U11" library="gps" library_urn="urn:adsk.eagle:library:34886882" deviceset="NEO-M8" device="" package3d_urn="urn:adsk.eagle:package:34886885/3" value="u-blox NEO-M6"/>
 <part name="U10" library="eeprom" library_urn="urn:adsk.eagle:library:34886870" deviceset="24AA32A-I/ST" device="TSSOP8_MC_MCH" package3d_urn="urn:adsk.eagle:package:34886877/2" value="24AA32A-I/ST"/>
 <part name="L6" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="INDUCTOR" device="0402" package3d_urn="urn:adsk.eagle:package:33773550/5" value="27nH"/>
 <part name="R55" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/5" value="10R"/>
@@ -29999,6 +29996,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3V3"/>
 <part name="BT1" library="SparkFun-Batteries" library_urn="urn:adsk.eagle:library:34952948" deviceset="BATTERY" device="-6.8MM_SMD" package3d_urn="urn:adsk.eagle:package:34952977/2" value="MS621FE-3V"/>
 <part name="H4" library="holes3" library_urn="urn:adsk.eagle:library:34781430" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:34781481/2" value="MOUNT-PAD-ROUND2.8"/>
+<part name="C56" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:34207981" deviceset="10UF10V10%(0805)" device="" package3d_urn="urn:adsk.eagle:package:34208158/3" value="10u"/>
 </parts>
 <sheets>
 <sheet>
@@ -30639,8 +30637,8 @@ RAM    = 1 MB</text>
 <attribute name="NAME" x="168.148" y="92.075" size="1.778" layer="95"/>
 <attribute name="VALUE" x="160.02" y="92.075" size="1.778" layer="96"/>
 </instance>
-<instance part="GND4" gate="1" x="177.8" y="86.36" smashed="yes">
-<attribute name="VALUE" x="175.26" y="83.82" size="1.778" layer="96"/>
+<instance part="GND4" gate="1" x="177.8" y="81.28" smashed="yes">
+<attribute name="VALUE" x="175.26" y="78.74" size="1.778" layer="96"/>
 </instance>
 <instance part="C16" gate="G$1" x="96.52" y="86.36" smashed="yes" rot="R270">
 <attribute name="NAME" x="97.028" y="86.995" size="1.778" layer="95"/>
@@ -30659,6 +30657,10 @@ RAM    = 1 MB</text>
 </instance>
 <instance part="GND2" gate="1" x="68.58" y="73.66" smashed="yes">
 <attribute name="VALUE" x="66.04" y="71.12" size="1.778" layer="96"/>
+</instance>
+<instance part="C56" gate="G$1" x="167.64" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="168.402" y="86.995" size="1.778" layer="95"/>
+<attribute name="VALUE" x="161.544" y="86.995" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -30704,7 +30706,8 @@ RAM    = 1 MB</text>
 <wire x1="177.8" y1="101.6" x2="177.8" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="99.06" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="96.52" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="91.44" x2="177.8" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="91.44" x2="177.8" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="86.36" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="91.44" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
 <junction x="177.8" y="91.44"/>
 <pinref part="C14" gate="G$1" pin="1"/>
@@ -30720,6 +30723,9 @@ RAM    = 1 MB</text>
 <wire x1="170.18" y1="104.14" x2="177.8" y2="104.14" width="0.1524" layer="91"/>
 <junction x="177.8" y="104.14"/>
 <pinref part="GND4" gate="1" pin="GND"/>
+<pinref part="C56" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="86.36" x2="177.8" y2="86.36" width="0.1524" layer="91"/>
+<junction x="177.8" y="86.36"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -30734,6 +30740,8 @@ RAM    = 1 MB</text>
 <junction x="152.4" y="91.44"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 <junction x="152.4" y="86.36"/>
+<pinref part="C56" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="86.36" x2="162.56" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3V3" class="0">
@@ -30902,27 +30910,27 @@ RAM    = 1 MB</text>
 <instance part="GND22" gate="1" x="190.5" y="68.58" smashed="yes">
 <attribute name="VALUE" x="187.96" y="66.04" size="1.778" layer="96"/>
 </instance>
-<instance part="UART-AUX" gate="G$1" x="200.66" y="134.62" smashed="yes">
+<instance part="UART" gate="G$1" x="200.66" y="134.62" smashed="yes">
 <attribute name="NAME" x="194.31" y="140.335" size="1.778" layer="95"/>
 <attribute name="VALUE" x="194.31" y="127" size="1.778" layer="96"/>
 </instance>
-<instance part="SPI-AUX" gate="A" x="200.66" y="109.22" smashed="yes">
+<instance part="SPI" gate="A" x="200.66" y="109.22" smashed="yes">
 <attribute name="NAME" x="194.31" y="114.935" size="1.778" layer="95"/>
 <attribute name="VALUE" x="194.31" y="101.6" size="1.778" layer="96"/>
 </instance>
-<instance part="ADC-AUX" gate="A" x="200.66" y="149.86" smashed="yes">
+<instance part="ADC" gate="A" x="200.66" y="149.86" smashed="yes">
 <attribute name="NAME" x="194.31" y="155.575" size="1.778" layer="95"/>
 <attribute name="VALUE" x="194.31" y="142.24" size="1.778" layer="96"/>
 </instance>
-<instance part="I2C-AUX" gate="G$1" x="200.66" y="121.92" smashed="yes">
+<instance part="I2C" gate="G$1" x="200.66" y="121.92" smashed="yes">
 <attribute name="NAME" x="194.31" y="127.635" size="1.778" layer="95"/>
 <attribute name="VALUE" x="194.31" y="114.3" size="1.778" layer="96"/>
 </instance>
-<instance part="GND-AUX" gate="G$1" x="200.66" y="76.2" smashed="yes">
+<instance part="GND" gate="G$1" x="200.66" y="76.2" smashed="yes">
 <attribute name="NAME" x="194.31" y="81.915" size="1.778" layer="95"/>
 <attribute name="VALUE" x="194.31" y="68.58" size="1.778" layer="96"/>
 </instance>
-<instance part="GPIO-AUX" gate="A" x="200.66" y="91.44" smashed="yes">
+<instance part="GPIO" gate="A" x="200.66" y="91.44" smashed="yes">
 <attribute name="NAME" x="194.31" y="99.695" size="1.778" layer="95"/>
 <attribute name="VALUE" x="194.31" y="83.82" size="1.778" layer="96"/>
 </instance>
@@ -31063,10 +31071,10 @@ RAM    = 1 MB</text>
 <segment>
 <pinref part="GND22" gate="1" pin="GND"/>
 <wire x1="190.5" y1="78.74" x2="190.5" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="GND-AUX" gate="G$1" pin="1"/>
+<pinref part="GND" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="76.2" x2="190.5" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="78.74" x2="198.12" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="GND-AUX" gate="G$1" pin="2"/>
+<pinref part="GND" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="76.2" x2="190.5" y2="76.2" width="0.1524" layer="91"/>
 <junction x="190.5" y="76.2"/>
 </segment>
@@ -31168,98 +31176,98 @@ RAM    = 1 MB</text>
 </net>
 <net name="ADC-AUX-1" class="0">
 <segment>
-<pinref part="ADC-AUX" gate="A" pin="1"/>
+<pinref part="ADC" gate="A" pin="1"/>
 <wire x1="198.12" y1="152.4" x2="167.64" y2="152.4" width="0.1524" layer="91"/>
 <label x="171.958" y="152.908" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADC-AUX-2" class="0">
 <segment>
-<pinref part="ADC-AUX" gate="A" pin="2"/>
+<pinref part="ADC" gate="A" pin="2"/>
 <wire x1="198.12" y1="149.86" x2="167.64" y2="149.86" width="0.1524" layer="91"/>
 <label x="171.958" y="150.114" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADC-AUX-3" class="0">
 <segment>
-<pinref part="ADC-AUX" gate="A" pin="3"/>
+<pinref part="ADC" gate="A" pin="3"/>
 <wire x1="198.12" y1="147.32" x2="167.64" y2="147.32" width="0.1524" layer="91"/>
 <label x="171.958" y="147.574" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UART-AUX-RX" class="0">
 <segment>
-<pinref part="UART-AUX" gate="G$1" pin="1"/>
+<pinref part="UART" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="137.16" x2="167.64" y2="137.16" width="0.1524" layer="91"/>
 <label x="170.942" y="137.414" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UART-AUX-TX" class="0">
 <segment>
-<pinref part="UART-AUX" gate="G$1" pin="2"/>
+<pinref part="UART" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="134.62" x2="167.64" y2="134.62" width="0.1524" layer="91"/>
 <label x="170.942" y="134.874" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2C-AUX-SDA" class="0">
 <segment>
-<pinref part="I2C-AUX" gate="G$1" pin="1"/>
+<pinref part="I2C" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="124.46" x2="167.64" y2="124.46" width="0.1524" layer="91"/>
 <label x="170.942" y="124.968" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2C-AUX-SCL" class="0">
 <segment>
-<pinref part="I2C-AUX" gate="G$1" pin="2"/>
+<pinref part="I2C" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="121.92" x2="167.64" y2="121.92" width="0.1524" layer="91"/>
 <label x="170.942" y="122.174" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI-AUX-MOSI" class="0">
 <segment>
-<pinref part="SPI-AUX" gate="A" pin="1"/>
+<pinref part="SPI" gate="A" pin="1"/>
 <wire x1="198.12" y1="111.76" x2="167.64" y2="111.76" width="0.1524" layer="91"/>
 <label x="171.196" y="112.014" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI-AUX-MISO" class="0">
 <segment>
-<pinref part="SPI-AUX" gate="A" pin="2"/>
+<pinref part="SPI" gate="A" pin="2"/>
 <wire x1="198.12" y1="109.22" x2="167.64" y2="109.22" width="0.1524" layer="91"/>
 <label x="171.196" y="109.474" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI-AUX-SCK" class="0">
 <segment>
-<pinref part="SPI-AUX" gate="A" pin="3"/>
+<pinref part="SPI" gate="A" pin="3"/>
 <wire x1="198.12" y1="106.68" x2="167.64" y2="106.68" width="0.1524" layer="91"/>
 <label x="171.196" y="106.934" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO-AUX-IN1" class="0">
 <segment>
-<pinref part="GPIO-AUX" gate="A" pin="1"/>
+<pinref part="GPIO" gate="A" pin="1"/>
 <wire x1="198.12" y1="96.52" x2="167.64" y2="96.52" width="0.1524" layer="91"/>
 <label x="171.196" y="97.282" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO-AUX-IN2" class="0">
 <segment>
-<pinref part="GPIO-AUX" gate="A" pin="2"/>
+<pinref part="GPIO" gate="A" pin="2"/>
 <wire x1="198.12" y1="93.98" x2="167.64" y2="93.98" width="0.1524" layer="91"/>
 <label x="171.196" y="94.234" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO-AUX-OUT1" class="0">
 <segment>
-<pinref part="GPIO-AUX" gate="A" pin="3"/>
+<pinref part="GPIO" gate="A" pin="3"/>
 <wire x1="198.12" y1="91.44" x2="167.64" y2="91.44" width="0.1524" layer="91"/>
 <label x="171.196" y="91.694" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO-AUX-OUT2" class="0">
 <segment>
-<pinref part="GPIO-AUX" gate="A" pin="4"/>
+<pinref part="GPIO" gate="A" pin="4"/>
 <wire x1="198.12" y1="88.9" x2="167.64" y2="88.9" width="0.1524" layer="91"/>
 <label x="171.196" y="89.154" size="1.778" layer="95"/>
 </segment>
