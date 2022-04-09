@@ -33072,7 +33072,7 @@ RAM    = 1 MB</text>
 <pinref part="TP2" gate="G$1" pin="TP"/>
 </segment>
 </net>
-<net name="VCC" class="0">
+<net name="3V3" class="0">
 <segment>
 <pinref part="P+11" gate="VCC" pin="VCC"/>
 <wire x1="116.84" y1="134.62" x2="116.84" y2="129.54" width="0.1524" layer="91"/>

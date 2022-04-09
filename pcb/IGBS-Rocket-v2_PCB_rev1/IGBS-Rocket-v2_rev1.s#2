@@ -32000,8 +32000,8 @@ RAM    = 1 MB</text>
 <attribute name="NAME" x="24.638" y="27.9146" size="1.778" layer="95"/>
 <attribute name="VALUE" x="24.638" y="25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="P+26" gate="VCC" x="30.48" y="50.8" smashed="yes">
-<attribute name="VALUE" x="33.02" y="49.022" size="1.778" layer="96"/>
+<instance part="P+26" gate="VCC" x="30.48" y="53.34" smashed="yes">
+<attribute name="VALUE" x="33.02" y="51.562" size="1.778" layer="96"/>
 </instance>
 <instance part="GND30" gate="1" x="30.48" y="20.32" smashed="yes">
 <attribute name="VALUE" x="27.94" y="17.78" size="1.778" layer="96"/>
@@ -32014,8 +32014,8 @@ RAM    = 1 MB</text>
 <attribute name="NAME" x="49.784" y="27.9146" size="1.778" layer="95"/>
 <attribute name="VALUE" x="50.038" y="25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="P+27" gate="VCC" x="55.88" y="50.8" smashed="yes">
-<attribute name="VALUE" x="58.42" y="49.022" size="1.778" layer="96"/>
+<instance part="P+27" gate="VCC" x="55.88" y="53.34" smashed="yes">
+<attribute name="VALUE" x="58.42" y="51.562" size="1.778" layer="96"/>
 </instance>
 <instance part="R94" gate="G$1" x="83.82" y="43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="77.724" y="44.6786" size="1.778" layer="95"/>
@@ -32025,8 +32025,8 @@ RAM    = 1 MB</text>
 <attribute name="NAME" x="77.724" y="27.9146" size="1.778" layer="95"/>
 <attribute name="VALUE" x="77.978" y="25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="P+28" gate="VCC" x="83.82" y="50.8" smashed="yes">
-<attribute name="VALUE" x="86.36" y="49.022" size="1.778" layer="96"/>
+<instance part="P+28" gate="VCC" x="83.82" y="53.34" smashed="yes">
+<attribute name="VALUE" x="86.36" y="51.562" size="1.778" layer="96"/>
 </instance>
 <instance part="R97" gate="G$1" x="208.28" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="201.93" y="48.9966" size="1.778" layer="95"/>
@@ -32221,6 +32221,7 @@ RAM    = 1 MB</text>
 <segment>
 <pinref part="P+26" gate="VCC" pin="VCC"/>
 <pinref part="R90" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="50.8" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BAT-SCALED" class="0">
@@ -32269,6 +32270,7 @@ RAM    = 1 MB</text>
 <segment>
 <pinref part="P+27" gate="VCC" pin="VCC"/>
 <pinref part="R92" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="50.8" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SRV1" class="0">
@@ -32509,6 +32511,7 @@ RAM    = 1 MB</text>
 <segment>
 <pinref part="P+28" gate="VCC" pin="VCC"/>
 <pinref part="R94" gate="G$1" pin="2"/>
+<wire x1="83.82" y1="50.8" x2="83.82" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R86" gate="G$1" pin="2"/>

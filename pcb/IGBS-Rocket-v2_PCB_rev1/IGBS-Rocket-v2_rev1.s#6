@@ -23750,7 +23750,7 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <text x="-6.35" y="3.048" size="0.889" layer="25" ratio="10">&gt;NAME</text>
 <text x="-6.35" y="-5.334" size="0.889" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="QFN40P300X300X105-24N" urn="urn:adsk.eagle:footprint:34860673/2" library_version="14">
+<package name="QFN40P300X300X105-24N" urn="urn:adsk.eagle:footprint:34860673/3" library_version="15">
 <wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.127" layer="51"/>
 <wire x1="1.55" y1="1.55" x2="1.55" y2="-1.55" width="0.127" layer="51"/>
 <wire x1="1.55" y1="-1.55" x2="-1.55" y2="-1.55" width="0.127" layer="51"/>
@@ -23767,30 +23767,30 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <circle x="-1.2" y="1.1" radius="0.1" width="0.2" layer="51"/>
 <text x="-2.163409375" y="2.290409375" size="0.889" layer="25">&gt;NAME</text>
 <text x="-2.287240625" y="-3.049859375" size="0.889" layer="27">&gt;VALUE</text>
-<smd name="1" x="-1.545" y="1" dx="0.6604" dy="0.19811875" layer="1" roundness="25"/>
-<smd name="2" x="-1.545" y="0.6" dx="0.6604" dy="0.19811875" layer="1" roundness="25"/>
-<smd name="3" x="-1.545" y="0.2" dx="0.6604" dy="0.19811875" layer="1" roundness="25"/>
-<smd name="4" x="-1.545" y="-0.2" dx="0.6604" dy="0.19811875" layer="1" roundness="25"/>
-<smd name="5" x="-1.545" y="-0.6" dx="0.6604" dy="0.19811875" layer="1" roundness="25"/>
-<smd name="6" x="-1.545" y="-1" dx="0.6604" dy="0.19811875" layer="1" roundness="25"/>
-<smd name="7" x="-1" y="-1.5748" dx="0.6604" dy="0.19811875" layer="1" roundness="25" rot="R90"/>
-<smd name="8" x="-0.6" y="-1.5748" dx="0.6604" dy="0.19811875" layer="1" roundness="25" rot="R90"/>
-<smd name="9" x="-0.2" y="-1.5748" dx="0.6604" dy="0.19811875" layer="1" roundness="25" rot="R90"/>
-<smd name="10" x="0.2" y="-1.5748" dx="0.6604" dy="0.19811875" layer="1" roundness="25" rot="R90"/>
-<smd name="11" x="0.6" y="-1.5748" dx="0.6604" dy="0.19811875" layer="1" roundness="25" rot="R90"/>
-<smd name="12" x="1" y="-1.5748" dx="0.6604" dy="0.19811875" layer="1" roundness="25" rot="R90"/>
-<smd name="13" x="1.545" y="-1" dx="0.6604" dy="0.19811875" layer="1" roundness="25" rot="R180"/>
-<smd name="14" x="1.545" y="-0.6" dx="0.6604" dy="0.19811875" layer="1" roundness="25" rot="R180"/>
-<smd name="15" x="1.545" y="-0.2" dx="0.6604" dy="0.19811875" layer="1" roundness="25" rot="R180"/>
-<smd name="16" x="1.545" y="0.2" dx="0.6604" dy="0.19811875" layer="1" roundness="25" rot="R180"/>
-<smd name="17" x="1.545" y="0.6" dx="0.6604" dy="0.19811875" layer="1" roundness="25" rot="R180"/>
-<smd name="18" x="1.545" y="1" dx="0.6604" dy="0.19811875" layer="1" roundness="25" rot="R180"/>
-<smd name="19" x="1" y="1.5748" dx="0.6604" dy="0.19811875" layer="1" roundness="25" rot="R270"/>
-<smd name="20" x="0.6" y="1.5748" dx="0.6604" dy="0.19811875" layer="1" roundness="25" rot="R270"/>
-<smd name="21" x="0.2" y="1.5748" dx="0.6604" dy="0.19811875" layer="1" roundness="25" rot="R270"/>
-<smd name="22" x="-0.2" y="1.5748" dx="0.6604" dy="0.19811875" layer="1" roundness="25" rot="R270"/>
-<smd name="23" x="-0.6" y="1.5748" dx="0.6604" dy="0.19811875" layer="1" roundness="25" rot="R270"/>
-<smd name="24" x="-1" y="1.5748" dx="0.6604" dy="0.19811875" layer="1" roundness="25" rot="R270"/>
+<smd name="1" x="-1.545" y="1" dx="0.6604" dy="0.19811875" layer="1"/>
+<smd name="2" x="-1.545" y="0.6" dx="0.6604" dy="0.19811875" layer="1"/>
+<smd name="3" x="-1.545" y="0.2" dx="0.6604" dy="0.19811875" layer="1"/>
+<smd name="4" x="-1.545" y="-0.2" dx="0.6604" dy="0.19811875" layer="1"/>
+<smd name="5" x="-1.545" y="-0.6" dx="0.6604" dy="0.19811875" layer="1"/>
+<smd name="6" x="-1.545" y="-1" dx="0.6604" dy="0.19811875" layer="1"/>
+<smd name="7" x="-1" y="-1.5748" dx="0.6604" dy="0.19811875" layer="1" rot="R90"/>
+<smd name="8" x="-0.6" y="-1.5748" dx="0.6604" dy="0.19811875" layer="1" rot="R90"/>
+<smd name="9" x="-0.2" y="-1.5748" dx="0.6604" dy="0.19811875" layer="1" rot="R90"/>
+<smd name="10" x="0.2" y="-1.5748" dx="0.6604" dy="0.19811875" layer="1" rot="R90"/>
+<smd name="11" x="0.6" y="-1.5748" dx="0.6604" dy="0.19811875" layer="1" rot="R90"/>
+<smd name="12" x="1" y="-1.5748" dx="0.6604" dy="0.19811875" layer="1" rot="R90"/>
+<smd name="13" x="1.545" y="-1" dx="0.6604" dy="0.19811875" layer="1" rot="R180"/>
+<smd name="14" x="1.545" y="-0.6" dx="0.6604" dy="0.19811875" layer="1" rot="R180"/>
+<smd name="15" x="1.545" y="-0.2" dx="0.6604" dy="0.19811875" layer="1" rot="R180"/>
+<smd name="16" x="1.545" y="0.2" dx="0.6604" dy="0.19811875" layer="1" rot="R180"/>
+<smd name="17" x="1.545" y="0.6" dx="0.6604" dy="0.19811875" layer="1" rot="R180"/>
+<smd name="18" x="1.545" y="1" dx="0.6604" dy="0.19811875" layer="1" rot="R180"/>
+<smd name="19" x="1" y="1.5748" dx="0.6604" dy="0.19811875" layer="1" rot="R270"/>
+<smd name="20" x="0.6" y="1.5748" dx="0.6604" dy="0.19811875" layer="1" rot="R270"/>
+<smd name="21" x="0.2" y="1.5748" dx="0.6604" dy="0.19811875" layer="1" rot="R270"/>
+<smd name="22" x="-0.2" y="1.5748" dx="0.6604" dy="0.19811875" layer="1" rot="R270"/>
+<smd name="23" x="-0.6" y="1.5748" dx="0.6604" dy="0.19811875" layer="1" rot="R270"/>
+<smd name="24" x="-1" y="1.5748" dx="0.6604" dy="0.19811875" layer="1" rot="R270"/>
 </package>
 <package name="XDCR_BMP280" urn="urn:adsk.eagle:footprint:34864326/1" library_version="13">
 <circle x="1.695" y="1.15" radius="0.1" width="0.2" layer="21"/>
@@ -23819,7 +23819,7 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <packageinstance name="ENC-03RC"/>
 </packageinstances>
 </package3d>
-<package3d name="QFN40P300X300X105-24N" urn="urn:adsk.eagle:package:34860675/3" type="model" library_version="14">
+<package3d name="QFN40P300X300X105-24N" urn="urn:adsk.eagle:package:34860675/4" type="model" library_version="15">
 <packageinstances>
 <packageinstance name="QFN40P300X300X105-24N"/>
 </packageinstances>
@@ -23905,7 +23905,7 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MPU-9250" urn="urn:adsk.eagle:component:34860676/3" prefix="U" library_version="14">
+<deviceset name="MPU-9250" urn="urn:adsk.eagle:component:34860676/4" prefix="U" library_version="15">
 <description>Axis=3 Axis Gyro+3 Axis Accel+Compass. Pin For Pin With m </description>
 <gates>
 <gate name="G$1" symbol="MPU-9250" x="0" y="0"/>
@@ -23930,7 +23930,7 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <connect gate="G$1" pin="VDDIO" pad="8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:34860675/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34860675/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -29970,7 +29970,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="TP27" library="testpad2" library_urn="urn:adsk.eagle:library:34206536" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:34206542/3"/>
 <part name="TP28" library="testpad2" library_urn="urn:adsk.eagle:library:34206536" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:34206542/3"/>
 <part name="C49" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:33773439/3" value="100n"/>
-<part name="U4" library="gyro" library_urn="urn:adsk.eagle:library:34017006" deviceset="MPU-9250" device="" package3d_urn="urn:adsk.eagle:package:34860675/3"/>
+<part name="U4" library="gyro" library_urn="urn:adsk.eagle:library:34017006" deviceset="MPU-9250" device="" package3d_urn="urn:adsk.eagle:package:34860675/4"/>
 <part name="C50" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:33773439/3" value="100n"/>
 <part name="C51" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:33773439/3" value="100n"/>
 <part name="U7" library="gyro" library_urn="urn:adsk.eagle:library:34017006" deviceset="BMP280" device="" package3d_urn="urn:adsk.eagle:package:34864328/2"/>

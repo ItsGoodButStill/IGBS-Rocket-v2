@@ -22752,9 +22752,9 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <text x="-19.6832" y="-2.7648" size="0.635" layer="47" ratio="4">0.299in/7.595mm</text>
 <text x="-1.8902" y="1.905" size="0.889" layer="27" ratio="10">&gt;Name</text>
 </package>
-<package name="CONN_S2B-XH-A_JST" urn="urn:adsk.eagle:footprint:33898226/6" library_version="15">
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.905" shape="octagon"/>
-<pad name="2" x="2.5" y="0" drill="1.016" diameter="1.905" shape="octagon"/>
+<package name="CONN_S2B-XH-A_JST" urn="urn:adsk.eagle:footprint:33898226/7" library_version="16">
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="2" x="2.5" y="0" drill="1.016" diameter="1.8796" shape="octagon"/>
 <wire x1="0" y1="0" x2="0" y2="7.38" width="0.1524" layer="47"/>
 <wire x1="2.5" y1="0" x2="2.5" y2="7.38" width="0.1524" layer="47"/>
 <wire x1="0" y1="6.999" x2="-1.27" y2="6.999" width="0.1524" layer="47"/>
@@ -22931,7 +22931,7 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <packageinstance name="CONN_S2B-PH-K-S_JST"/>
 </packageinstances>
 </package3d>
-<package3d name="CONN_S2B-XH-A_JST" urn="urn:adsk.eagle:package:33898254/7" type="model" library_version="15">
+<package3d name="CONN_S2B-XH-A_JST" urn="urn:adsk.eagle:package:33898254/8" type="model" library_version="16">
 <packageinstances>
 <packageinstance name="CONN_S2B-XH-A_JST"/>
 </packageinstances>
@@ -23098,7 +23098,7 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="S2B-XH-A(LF)(SN)" urn="urn:adsk.eagle:component:33898276/8" prefix="J" library_version="15">
+<deviceset name="S2B-XH-A(LF)(SN)" urn="urn:adsk.eagle:component:33898276/9" prefix="J" library_version="16">
 <gates>
 <gate name="A" symbol="CONN_002P_000C_1" x="0" y="0"/>
 </gates>
@@ -23109,7 +23109,7 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <connect gate="A" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:33898254/7"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33898254/8"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -29845,7 +29845,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R59" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/5" value="100k"/>
 <part name="C23" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:33773439/3" value="100n"/>
 <part name="D16" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:33775244" deviceset="DIODE" device="SOD123" package3d_urn="urn:adsk.eagle:package:33775370/4" value="1N4148"/>
-<part name="MAG" library="jst-XH2" library_urn="urn:adsk.eagle:library:33898220" deviceset="S2B-XH-A(LF)(SN)" device="CONN_S2B-XH-A_JST" package3d_urn="urn:adsk.eagle:package:33898254/7"/>
+<part name="MAG" library="jst-XH2" library_urn="urn:adsk.eagle:library:33898220" deviceset="S2B-XH-A(LF)(SN)" device="CONN_S2B-XH-A_JST" package3d_urn="urn:adsk.eagle:package:33898254/8"/>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="5V"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:33775244" deviceset="MOSFET-NCHANNEL" device="BSS123LT1G" package3d_urn="urn:adsk.eagle:package:33775354/4" value="BSS316N"/>
@@ -29867,7 +29867,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="CR2" library="ref" library_urn="urn:adsk.eagle:library:34424269" deviceset="TL431QDBZR,215" device="SOT23_TO-236AB_NEX" package3d_urn="urn:adsk.eagle:package:34424276/3" value="TS4040DILT-2.5 "/>
 <part name="R4" library="trimmer" library_urn="urn:adsk.eagle:library:34424339" deviceset="PVG3A103C01R00" device="RES_C01R00" package3d_urn="urn:adsk.eagle:package:34424346/2" value="500k"/>
 <part name="IC1" library="opamps" library_urn="urn:adsk.eagle:library:33908808" deviceset="LM358" device="D" package3d_urn="urn:adsk.eagle:package:16404/2" value="NCV21872DR2G"/>
-<part name="SG1" library="jst-XH2" library_urn="urn:adsk.eagle:library:33898220" deviceset="S2B-XH-A(LF)(SN)" device="CONN_S2B-XH-A_JST" package3d_urn="urn:adsk.eagle:package:33898254/7" value="S3B-XH-A"/>
+<part name="SG1" library="jst-XH2" library_urn="urn:adsk.eagle:library:33898220" deviceset="S2B-XH-A(LF)(SN)" device="CONN_S2B-XH-A_JST" package3d_urn="urn:adsk.eagle:package:33898254/8" value="S3B-XH-A"/>
 <part name="C3" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:33773439/3" value="100n"/>
 <part name="R5" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/5" value="10k"/>
 <part name="L4" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="INDUCTOR" device="0805" package3d_urn="urn:adsk.eagle:package:33890084/2" value="10uH"/>
@@ -29903,7 +29903,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R89" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/5" value="5k"/>
 <part name="C47" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:33773440/2" value="10n"/>
 <part name="L5" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="744373240047" device="IND_74437_WRE" package3d_urn="urn:adsk.eagle:package:34532406/3" value="22u"/>
-<part name="12V-CAM" library="jst-XH2" library_urn="urn:adsk.eagle:library:33898220" deviceset="S2B-XH-A(LF)(SN)" device="CONN_S2B-XH-A_JST" package3d_urn="urn:adsk.eagle:package:33898254/7"/>
+<part name="12V-CAM" library="jst-XH2" library_urn="urn:adsk.eagle:library:33898220" deviceset="S2B-XH-A(LF)(SN)" device="CONN_S2B-XH-A_JST" package3d_urn="urn:adsk.eagle:package:33898254/8"/>
 <part name="CR6" library="diode2" library_urn="urn:adsk.eagle:library:33771959" deviceset="SS12-E3/5AT" device="DIODE_DO214AC" package3d_urn="urn:adsk.eagle:package:34532938/4" value="SS12"/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="AGND"/>
@@ -29934,7 +29934,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="CR3" library="ref" library_urn="urn:adsk.eagle:library:34424269" deviceset="TL431QDBZR,215" device="SOT23_TO-236AB_NEX" package3d_urn="urn:adsk.eagle:package:34424276/3" value="TS4040DILT-2.5 "/>
 <part name="R68" library="trimmer" library_urn="urn:adsk.eagle:library:34424339" deviceset="PVG3A103C01R00" device="RES_C01R00" package3d_urn="urn:adsk.eagle:package:34424346/2" value="500k"/>
 <part name="IC2" library="opamps" library_urn="urn:adsk.eagle:library:33908808" deviceset="LM358" device="D" package3d_urn="urn:adsk.eagle:package:16404/2" value="NCV21872DR2G"/>
-<part name="SG2" library="jst-XH2" library_urn="urn:adsk.eagle:library:33898220" deviceset="S2B-XH-A(LF)(SN)" device="CONN_S2B-XH-A_JST" package3d_urn="urn:adsk.eagle:package:33898254/7" value="S3B-XH-A"/>
+<part name="SG2" library="jst-XH2" library_urn="urn:adsk.eagle:library:33898220" deviceset="S2B-XH-A(LF)(SN)" device="CONN_S2B-XH-A_JST" package3d_urn="urn:adsk.eagle:package:33898254/8" value="S3B-XH-A"/>
 <part name="C35" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:33773439/3" value="100n"/>
 <part name="R69" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/5" value="10k"/>
 <part name="R70" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/5" value="360R"/>
@@ -29952,7 +29952,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="CR4" library="ref" library_urn="urn:adsk.eagle:library:34424269" deviceset="TL431QDBZR,215" device="SOT23_TO-236AB_NEX" package3d_urn="urn:adsk.eagle:package:34424276/3" value="TS4040DILT-2.5 "/>
 <part name="R77" library="trimmer" library_urn="urn:adsk.eagle:library:34424339" deviceset="PVG3A103C01R00" device="RES_C01R00" package3d_urn="urn:adsk.eagle:package:34424346/2" value="500k"/>
 <part name="IC3" library="opamps" library_urn="urn:adsk.eagle:library:33908808" deviceset="LM358" device="D" package3d_urn="urn:adsk.eagle:package:16404/2" value="NCV21872DR2G"/>
-<part name="SG3" library="jst-XH2" library_urn="urn:adsk.eagle:library:33898220" deviceset="S2B-XH-A(LF)(SN)" device="CONN_S2B-XH-A_JST" package3d_urn="urn:adsk.eagle:package:33898254/7" value="S3B-XH-A"/>
+<part name="SG3" library="jst-XH2" library_urn="urn:adsk.eagle:library:33898220" deviceset="S2B-XH-A(LF)(SN)" device="CONN_S2B-XH-A_JST" package3d_urn="urn:adsk.eagle:package:33898254/8" value="S3B-XH-A"/>
 <part name="C40" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:33773439/3" value="100n"/>
 <part name="R78" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/5" value="10k"/>
 <part name="R79" library="rcl2" library_urn="urn:adsk.eagle:library:33772641" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:33773532/5" value="360R"/>

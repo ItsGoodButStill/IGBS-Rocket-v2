@@ -33274,7 +33274,7 @@ RAM    = 1 MB</text>
 <junction x="60.96" y="106.68"/>
 </segment>
 </net>
-<net name="5V-ESP" class="0">
+<net name="3V3-ESP" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="VCC"/>
 <wire x1="93.98" y1="81.28" x2="83.82" y2="81.28" width="0.1524" layer="91"/>
